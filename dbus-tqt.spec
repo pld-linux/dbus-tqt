@@ -9,6 +9,7 @@ Source0:	http://ftp.fau.de/trinity/releases/%{tde_version}/dependencies/%{name}-
 # Source0-md5:	cab0649d08671ce19da623a8fb6275bb
 BuildRequires:	cmake >= 2.8
 BuildRequires:	dbus-devel
+BuildRequires:	pkgconfig
 BuildRequires:	libstdc++-devel
 BuildRequires:	libtqtinterface-devel >= %{tde_version}
 BuildRequires:	qt-devel >= 6:3.3.8d
