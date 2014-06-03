@@ -24,6 +24,7 @@ Dbus TQT Interface.
 Summary:	%{name} - Development files
 Group:		Development/Libraries
 Requires:	%{name} = %{version}-%{release}
+Conflicts:	dbus-qt-devel
 
 %description devel
 Development files for %{name}.
